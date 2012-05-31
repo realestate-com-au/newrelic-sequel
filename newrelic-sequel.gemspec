@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.authors = ["REA Group"]
   s.date = "2012-05-30"
   s.description = "Sequel instrumentation for Newrelic."
-  s.email = ["yong_fu@rea-group.com"]
+  s.email = ["yong.fu@rea-group.com", "wei.guangcheng@rea-group.com"]
   s.extra_rdoc_files = ["README.rdoc"]
   s.files = ["README.rdoc", "lib/newrelic-sequel.rb", "lib/newrelic_sequel/sequel.rb", "lib/newrelic_sequel/version.rb", "newrelic-sequel.gemspec"]
-  s.homepage = ""
+  s.homepage = "https://github.com/realestate-com-au/newrelic-sequel"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.22"
   s.summary = "Sequel instrumentation for Newrelic."
