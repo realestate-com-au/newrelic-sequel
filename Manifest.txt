@@ -1,5 +1,0 @@
-Manifest.txt
-lib/newrelic-sequel.rb
-lib/newrelic_sequel/sequel.rb
-lib/newrelic_sequel/version.rb
-newrelic-sequel.gemspec

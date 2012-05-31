@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = "2012-05-30"
   s.description = "Sequel instrumentation for Newrelic."
   s.email = ["yong_fu@rea-group.com"]
-  s.extra_rdoc_files = ["Manifest.txt"]
-  s.files = ["Manifest.txt", "lib/newrelic-sequel.rb", "lib/newrelic_sequel/sequel.rb", "lib/newrelic_sequel/version.rb", "newrelic-sequel.gemspec"]
+  s.extra_rdoc_files = ["README.rdoc"]
+  s.files = ["README.rdoc", "lib/newrelic-sequel.rb", "lib/newrelic_sequel/sequel.rb", "lib/newrelic_sequel/version.rb", "newrelic-sequel.gemspec"]
   s.homepage = ""
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.22"
