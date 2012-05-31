@@ -36,7 +36,9 @@ DependencyDetection.defer do
     end
 
     ::Sequel::Dataset.class_eval do
-
+      
+      add_method_tracer :first, 'ActiveRecord/#{self.respond_to?(:model) ? self.model.name : "Dataset"}/first'
+      add_method_tracer :find_all, 'ActiveRecord/#{self.respond_to?(:model) ? self.model.name : "Dataset"}/find_all'
       add_method_tracer :execute, 'ActiveRecord/#{self.respond_to?(:model) ? self.model.name : "Dataset"}/find'
       add_method_tracer :execute_insert, 'ActiveRecord/#{self.respond_to?(:model) ? self.model.name : "Dataset"}/create'
       add_method_tracer :execute_dui, 'ActiveRecord/#{self.respond_to?(:model) ? self.model.name : "Dataset"}/update'
@@ -52,6 +54,7 @@ DependencyDetection.defer do
       add_method_tracer :execute_ddl, 'ActiveRecord/Database/all'
 
     end
+    
   end
 end
 
