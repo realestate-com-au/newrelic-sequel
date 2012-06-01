@@ -11,16 +11,13 @@ Usage
 
 2. Config dependencies in application.rb
 
- >config.gem "rpm_contrib"
- >
  >config.gem "newrelic_rpm"
 
 Dependencies
 ------------
 
-1. rpm_contrib
-2. newrelic_rpm > 3.0
-3. sequel > 3.22
+1. newrelic_rpm > 3.0
+2. sequel > 3.22
 
 License
 -------
