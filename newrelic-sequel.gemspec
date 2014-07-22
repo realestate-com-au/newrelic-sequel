@@ -21,18 +21,18 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<sequel>, ["> 3.22"])
-      s.add_runtime_dependency(%q<newrelic_rpm>, ["~> 3.0"])
+      s.add_runtime_dependency(%q<newrelic_rpm>, ["~> 3.0", "<= 3.8.1.221"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.10"])
       s.add_development_dependency(%q<hoe>, ["~> 2.16"])
     else
       s.add_dependency(%q<sequel>, ["> 3.22"])
-      s.add_dependency(%q<newrelic_rpm>, ["~> 3.0"])
+      s.add_dependency(%q<newrelic_rpm>, ["~> 3.0", "<= 3.8.1.221"])
       s.add_dependency(%q<rdoc>, ["~> 3.10"])
       s.add_dependency(%q<hoe>, ["~> 2.16"])
     end
   else
     s.add_dependency(%q<sequel>, ["> 3.22"])
-    s.add_dependency(%q<newrelic_rpm>, ["~> 3.0"])
+    s.add_dependency(%q<newrelic_rpm>, ["~> 3.0", "<= 3.8.1.221"])
     s.add_dependency(%q<rdoc>, ["~> 3.10"])
     s.add_dependency(%q<hoe>, ["~> 2.16"])
   end
