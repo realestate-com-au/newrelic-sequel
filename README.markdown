@@ -16,7 +16,7 @@ Usage
 Dependencies
 ------------
 
-1. newrelic_rpm > 3.0
+1. newrelic_rpm > 3.0, <= 3.8.1.221
 2. sequel > 3.22
 
 License
