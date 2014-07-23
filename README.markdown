@@ -1,3 +1,9 @@
+# This gem is deprecated!
+
+Sequel instrumentation is now supported in the newrelic_rpm gem as of version 3.9.0.229
+
+Please remove the newrelic-sequel gem from your Gemfile and replace it with newrelic_rpm ~> 3.9
+
 Newrelic Sequel
 ===============
 **Sequel instrumentation for Newrelic.**
