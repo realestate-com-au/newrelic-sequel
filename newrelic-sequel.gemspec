@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hoe>, ["~> 2.16"])
   end
 
-  spec.post_install_message = <<-MESSAGE
+  s.post_install_message = <<-MESSAGE
 !    Sequel instrumentation is now supported in the newrelic_rpm gem as of version 3.9.0.229.
 !    Please remove the newrelic-sequel gem from your Gemfile and replace it with newrelic_rpm ~> 3.9
 MESSAGE
